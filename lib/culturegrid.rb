@@ -5,6 +5,10 @@ require 'weary'
 
 module CultureGrid
   
+  def self.search(terms, opts={})
+    CultureGrid::Index.new.search(terms)
+  end
+  
   class Index
 
     def initialize(base="http://culturegrid.org.uk/index/select/")

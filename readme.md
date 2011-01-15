@@ -5,8 +5,14 @@ Culturegrid
 
 So, here's a ruby gem that simplifies a few use cases for the API and let's you get on with your mashup.
 
-Example:
+To use
 
+    gem install culturegrid
+
+Example:
+    
+    require 'culturegrid'
+    
     grid = CultureGrid::Index.new
     => #<CultureGrid::Index:0x10139a920 @base="http://culturegrid.org.uk/index/select/">
     
@@ -59,3 +65,11 @@ Example:
     
     ascent_of_snowdon["dcterms.isPartOf"]
     => ["PN", "KirkleesImageArchive"]
+    
+Each result is a CultureGrid::Doc, which is a Hashie::Mash, so look at this:
+
+    require 'json'
+    require 'culturegrid'
+    
+    CultureGrid.search("joy").first.to_json
+    => "{\"dcterms.rightsHolder\":\"Leeds Central Library\",\"dc.title\":[\"York Road, Joy's Fold\"],\"aggregator.internal_record_link\":\"/dpp/resource/2541087/stream/CultureGrid_Item\",\"aggregator.internal.id\":\"2541087\",\"dcterms.spatial\":[\"World, Europe, United Kingdom\"],\"timestamp\":\"2010-12-07T11:08:13.869Z\",\"dcterms.isPartOf_AllNames\":\"People's Network|CG_BREAK|Leodis\",\"pndsterms.thumbnail\":\"http://www.leodis.net/imagesLeodis/thumbnail/24/20091124_169824.jpg\",\"dcmi.type\":[\"Image\"],\"dc.identifier\":\"http://www.leodis.net/display.aspx?id=20091124_169824\",\"dc.description\":[\"18th September 1935.\\nView of Joy's Fold, a yard off York Road near the junction with Marsh Lane. In the centre are the premises of Cecil Gilbert, shoeing smith, of no.15 Joy's Fold. These buildings were all soon to be demolished as part of the slum clearance programme in the area.\"],\"cached_thumbnail\":\"/dpp/resource/2541087/stream/thumbnail_image_jpeg\",\"have_temporal\":\"false\",\"dc.related.link\":\"http://www.leodis.net/display.aspx?id=20091124_169824\",\"dcterms.license\":\"http://www.leodis.net/article.aspx?id=12\",\"dc.subject\":[\"York Road\",\"Joy's Fold\"],\"authority_name\":\"Leodis - A photographic archive of Leeds\",\"authority\":\"Leodis\",\"dcterms.isPartOf_AllIDs\":\"PN|CG_BREAK|Leodis\",\"dcterms.isPartOf\":[\"PN\",\"Leodis\"],\"dcterms.isPartOf_Name\":[\"People's Network\",\"Leodis\"],\"restp\":\"ServiceProvider\"}"
