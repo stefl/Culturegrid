@@ -11,6 +11,7 @@ GEM
     nokogiri (1.4.3.1)
     oauth (0.4.1)
     rake (0.8.7)
+    rcov (0.9.9)
     weary (0.7.2)
       crack (>= 0.1.7)
       oauth (>= 0.3.5)
@@ -23,4 +24,5 @@ DEPENDENCIES
   hashie
   jeweler (~> 1.5.2)
   nokogiri
+  rcov
   weary
