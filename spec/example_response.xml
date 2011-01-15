@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<response>
+
+<lst name="responseHeader">
+ <int name="status">0</int>
+ <int name="QTime">562</int>
+ <lst name="params">
+  <str name="indent">on</str>
+  <str name="rows">10</str>
+  <str name="version">2.2</str>
+  <str name="start">0</str>
+  <str name="q">dc.title all "Scree" OR fullText all "Scree"</str>
+ </lst>
+</lst>
+<result name="response" numFound="32486" start="0">
+ <doc>
+  <str name="aggregator.internal.id">2082977</str>
+  <str name="aggregator.internal_record_link">/dpp/resource/2082977/stream/CultureGrid_Item</str>
+  <str name="authority">KirkleesImages</str>
+  <str name="authority_name">Kirklees Image Archive OAI Feed</str>
+  <str name="cached_thumbnail">/dpp/resource/2082977/stream/thumbnail_image_jpeg</str>
+  <arr name="dc.contributor"><str>Kirklees</str></arr>
+  <arr name="dc.format"><str>JPEG/IMAGE</str></arr>
+  <str name="dc.identifier">http://www.kirkleesimages.org.uk/frontend.php?keywords=Ref_No_increment;EQUALS;k006195&amp;pos=2&amp;action=zoom</str>
+  <str name="dc.language">EN-GB</str>
+  <str name="dc.location">Kirklees</str>
+  <str name="dc.publisher">Kirklees</str>
+  <str name="dc.related.link">http://www.kirkleesimages.org.uk/frontend.php?keywords=Ref_No_increment;EQUALS;k006195&amp;pos=2&amp;action=zoom</str>
+  <arr name="dc.subject"><str>Kirklees</str></arr>
+  <arr name="dc.title"><str>Screes near Badger Slacks</str></arr>
+  <arr name="dcmi.type"><str>Image</str></arr>
+  <arr name="dcterms.audience"><str>General_Educational</str></arr>
+  <arr name="dcterms.isPartOf"><str>PN</str><str>KirkleesImageArchive</str></arr>
+  <str name="dcterms.isPartOf_AllIDs">PN|CG_BREAK|KirkleesImageArchive</str>
+  <str name="dcterms.isPartOf_AllNames">People's Network|CG_BREAK|Kirklees Image Archive</str>
+  <arr name="dcterms.isPartOf_Name"><str>People's Network</str><str>Kirklees Image Archive</str></arr>
+  <str name="dcterms.license">http://creativecommons.org/licenses/by-nc-nd/2.0/uk/</str>
+  <str name="dcterms.rightsHolder">Kirklees</str>
+  <arr name="dcterms.spatial"><str>Kirklees</str></arr>
+  <bool name="have_temporal">false</bool>
+  <str name="pndsterms.thumbnail">https://www.hpacde.org.uk/kirklees/jpgs_kirklees/k006195.jpg</str>
+  <str name="restp">ServiceProvider</str>
+  <date name="timestamp">2010-12-07T09:30:24.793Z</date>
+ </doc>
+ <doc>
+  <str name="aggregator.internal.id">2082978</str>
+  <str name="aggregator.internal_record_link">/dpp/resource/2082978/stream/CultureGrid_Item</str>
+  <str name="authority">KirkleesImages</str>
+  <str name="authority_name">Kirklees Image Archive OAI Feed</str>
+  <str name="cached_thumbnail">/dpp/resource/2082978/stream/thumbnail_image_jpeg</str>
+  <arr name="dc.contributor"><str>Kirklees</str></arr>
+  <arr name="dc.format"><str>JPEG/IMAGE</str></arr>
+  <str name="dc.identifier">http://www.kirkleesimages.org.uk/frontend.php?keywords=Ref_No_increment;EQUALS;k006196&amp;pos=2&amp;action=zoom</str>
+  <str name="dc.language">EN-GB</str>
+  <str name="dc.location">Kirklees</str>
+  <str name="dc.publisher">Kirklees</str>
+  <str name="dc.related.link">http://www.kirkleesimages.org.uk/frontend.php?keywords=Ref_No_increment;EQUALS;k006196&amp;pos=2&amp;action=zoom</str>
+  <arr name="dc.subject"><str>Kirklees</str></arr>
+  <arr name="dc.title"><str>Screes near Badger Slacks</str></arr>
+  <arr name="dcmi.type"><str>Image</str></arr>
+  <arr name="dcterms.audience"><str>General_Educational</str></arr>
+  <arr name="dcterms.isPartOf"><str>PN</str><str>KirkleesImageArchive</str></arr>
+  <str name="dcterms.isPartOf_AllIDs">PN|CG_BREAK|KirkleesImageArchive</str>
+  <str name="dcterms.isPartOf_AllNames">People's Network|CG_BREAK|Kirklees Image Archive</str>
+  <arr name="dcterms.isPartOf_Name"><str>People's Network</str><str>Kirklees Image Archive</str></arr>
+  <str name="dcterms.license">http://creativecommons.org/licenses/by-nc-nd/2.0/uk/</str>
+  <str name="dcterms.rightsHolder">Kirklees</str>
+  <arr name="dcterms.spatial"><str>Kirklees</str></arr>
+  <bool name="have_temporal">false</bool>
+  <str name="pndsterms.thumbnail">https://www.hpacde.org.uk/kirklees/jpgs_kirklees/k006196.jpg</str>
+  <str name="restp">ServiceProvider</str>
+  <date name="timestamp">2010-12-07T09:30:25.06Z</date>
+ </doc>
+ <doc>
+  <str name="aggregator.internal.id">2102735</str>
+  <str name="aggregator.internal_record_link">/dpp/resource/2102735/stream/CultureGrid_Item</str>
+  <str name="authority">KirkleesImages</str>
+  <str name="authority_name">Kirklees Image Archive OAI Feed</str>
+  <str name="cached_thumbnail">/dpp/resource/2102735/stream/thumbnail_image_jpeg</str>
+  <arr name="dc.contributor"><str>Kirklees</str></arr>
+  <arr name="dc.format"><str>JPEG/IMAGE</str></arr>
+  <str name="dc.identifier">http://www.kirkleesimages.org.uk/frontend.php?keywords=Ref_No_increment;EQUALS;kw00690&amp;pos=2&amp;action=zoom</str>
+  <str name="dc.language">EN-GB</str>
+  <str name="dc.location">Kirklees</str>
+  <str name="dc.publisher">Kirklees</str>
+  <str name="dc.related.link">http://www.kirkleesimages.org.uk/frontend.php?keywords=Ref_No_increment;EQUALS;kw00690&amp;pos=2&amp;action=zoom</str>
+  <arr name="dc.subject"><str>Kirklees</str></arr>
+  <arr name="dc.title"><str>Wastwater Screes</str></arr>
+  <arr name="dcmi.type"><str>Image</str></arr>
+  <arr name="dcterms.audience"><str>General_Educational</str></arr>
+  <arr name="dcterms.isPartOf"><str>PN</str><str>KirkleesImageArchive</str></arr>
+  <str name="dcterms.isPartOf_AllIDs">PN|CG_BREAK|KirkleesImageArchive</str>
+  <str name="dcterms.isPartOf_AllNames">People's Network|CG_BREAK|Kirklees Image Archive</str>
+  <arr name="dcterms.isPartOf_Name"><str>People's Network</str><str>Kirklees Image Archive</str></arr>
+  <str name="dcterms.license">http://creativecommons.org/licenses/by-nc-nd/2.0/uk/</str>
+  <str name="dcterms.rightsHolder">Kirklees</str>
+  <arr name="dcterms.spatial"><str>Kirklees</str></arr>
+  <bool name="have_temporal">false</bool>
+  <str name="pndsterms.thumbnail">https://www.hpacde.org.uk/kirklees/jpgs_kirklees/kw00690.jpg</str>
+  <str name="restp">ServiceProvider</str>
+  <date name="timestamp">2010-12-07T09:35:35.596Z</date>
+ </doc>
+ <doc>
+  <str name="aggregator.internal.id">2082365</str>
+  <str name="aggregator.internal_record_link">/dpp/resource/2082365/stream/CultureGrid_Item</str>
+  <str name="authority">KirkleesImages</str>
+  <str name="authority_name">Kirklees Image Archive OAI Feed</str>
+  <str name="cached_thumbnail">/dpp/resource/2082365/stream/thumbnail_image_jpeg</str>
+  <arr name="dc.contributor"><str>Kirklees</str></arr>
+  <arr name="dc.format"><str>JPEG/IMAGE</str></arr>
+  <str name="dc.identifier">http://www.kirkleesimages.org.uk/frontend.php?keywords=Ref_No_increment;EQUALS;k005581&amp;pos=2&amp;action=zoom</str>
+  <str name="dc.language">EN-GB</str>
+  <str name="dc.location">Kirklees</str>
+  <str name="dc.publisher">Kirklees</str>
+  <str name="dc.related.link">http://www.kirkleesimages.org.uk/frontend.php?keywords=Ref_No_increment;EQUALS;k005581&amp;pos=2&amp;action=zoom</str>
+  <arr name="dc.subject"><str>Kirklees</str></arr>
+  <arr name="dc.title"><str>The Screes, Wast Water, Lake District</str></arr>
+  <arr name="dcmi.type"><str>Image</str></arr>
+  <arr name="dcterms.audience"><str>General_Educational</str></arr>
+  <arr name="dcterms.isPartOf"><str>PN</str><str>KirkleesImageArchive</str></arr>
+  <str name="dcterms.isPartOf_AllIDs">PN|CG_BREAK|KirkleesImageArchive</str>
+  <str name="dcterms.isPartOf_AllNames">People's Network|CG_BREAK|Kirklees Image Archive</str>
+  <arr name="dcterms.isPartOf_Name"><str>People's Network</str><str>Kirklees Image Archive</str></arr>
+  <str name="dcterms.license">http://creativecommons.org/licenses/by-nc-nd/2.0/uk/</str>
+  <str name="dcterms.rightsHolder">Kirklees</str>
+  <arr name="dcterms.spatial"><str>Kirklees</str></arr>
+  <bool name="have_temporal">false</bool>
+  <str name="pndsterms.thumbnail">https://www.hpacde.org.uk/kirklees/jpgs_kirklees/k005581.jpg</str>
+  <str name="restp">ServiceProvider</str>
+  <date name="timestamp">2010-12-07T09:38:21.755Z</date>
+ </doc>
+ <doc>
+  <str name="aggregator.internal.id">2082367</str>
+  <str name="aggregator.internal_record_link">/dpp/resource/2082367/stream/CultureGrid_Item</str>
+  <str name="authority">KirkleesImages</str>
+  <str name="authority_name">Kirklees Image Archive OAI Feed</str>
+  <str name="cached_thumbnail">/dpp/resource/2082367/stream/thumbnail_image_jpeg</str>
+  <arr name="dc.contributor"><str>Kirklees</str></arr>
+  <arr name="dc.format"><str>JPEG/IMAGE</str></arr>
+  <str name="dc.identifier">http://www.kirkleesimages.org.uk/frontend.php?keywords=Ref_No_increment;EQUALS;k005583&amp;pos=2&amp;action=zoom</str>
+  <str name="dc.language">EN-GB</str>
+  <str name="dc.location">Kirklees</str>
+  <str name="dc.publisher">Kirklees</str>
+  <str name="dc.related.link">http://www.kirkleesimages.org.uk/frontend.php?keywords=Ref_No_increment;EQUALS;k005583&amp;pos=2&amp;action=zoom</str>
+  <arr name="dc.subject"><str>Kirklees</str></arr>
+  <arr name="dc.title"><str>The Screes, Wast Water, Lake District</str></arr>
+  <arr name="dcmi.type"><str>Image</str></arr>
+  <arr name="dcterms.audience"><str>General_Educational</str></arr>
+  <arr name="dcterms.isPartOf"><str>PN</str><str>KirkleesImageArchive</str></arr>
+  <str name="dcterms.isPartOf_AllIDs">PN|CG_BREAK|KirkleesImageArchive</str>
+  <str name="dcterms.isPartOf_AllNames">People's Network|CG_BREAK|Kirklees Image Archive</str>
+  <arr name="dcterms.isPartOf_Name"><str>People's Network</str><str>Kirklees Image Archive</str></arr>
+  <str name="dcterms.license">http://creativecommons.org/licenses/by-nc-nd/2.0/uk/</str>
+  <str name="dcterms.rightsHolder">Kirklees</str>
+  <arr name="dcterms.spatial"><str>Kirklees</str></arr>
+  <bool name="have_temporal">false</bool>
+  <str name="pndsterms.thumbnail">https://www.hpacde.org.uk/kirklees/jpgs_kirklees/k005583.jpg</str>
+  <str name="restp">ServiceProvider</str>
+  <date name="timestamp">2010-12-07T09:38:22.31Z</date>
+ </doc>
+ <doc>
+  <str name="aggregator.internal.id">2674747</str>
+  <str name="aggregator.internal_record_link">/dpp/resource/2674747/stream/CultureGrid_Item</str>
+  <str name="authority">BCH</str>
+  <str name="authority_name">Black Country History</str>
+  <arr name="dc.description"><str>Arms of Crinoid</str></arr>
+  <str name="dc.identifier">http://www.blackcountryhistory.org/collections/getrecord/DMUSE_001948</str>
+  <str name="dc.publisher">Dudley Museums Service</str>
+  <str name="dc.related.link">http://www.blackcountryhistory.org/collections/getrecord/DMUSE_001948</str>
+  <arr name="dc.subject"><str>David Ray Collection</str></arr>
+  <arr name="dc.title"><str>Crinoid</str></arr>
+  <arr name="dcmi.type"><str>Unknown</str></arr>
+  <arr name="dcterms.isPartOf"><str>BlackCountryHistory</str><str>PN</str></arr>
+  <str name="dcterms.isPartOf_AllIDs">BlackCountryHistory|CG_BREAK|PN</str>
+  <str name="dcterms.isPartOf_AllNames">Black Country History|CG_BREAK|People's Network</str>
+  <arr name="dcterms.isPartOf_Name"><str>Black Country History</str><str>People's Network</str></arr>
+  <str name="dcterms.license">http://creativecommons.org/licenses/by/2.0/uk/</str>
+  <str name="dcterms.rightsHolder">Dudley Museums Service</str>
+  <arr name="dcterms.spatial"><str>Wren's Nest GR: 393560 291956 Scree</str></arr>
+  <arr name="dcterms.temporal"><str>Silurian, Much Wenlock Limstone, Nodular Member.</str></arr>
+  <bool name="have_temporal">false</bool>
+  <arr name="otherDcIdentifier"><str>001948</str><str>Geology</str></arr>
+  <str name="restp">ServiceProvider</str>
+  <date name="timestamp">2011-01-10T08:54:28.135Z</date>
+ </doc>
+ <doc>
+  <str name="aggregator.internal.id">2674330</str>
+  <str name="aggregator.internal_record_link">/dpp/resource/2674330/stream/CultureGrid_Item</str>
+  <str name="authority">BCH</str>
+  <str name="authority_name">Black Country History</str>
+  <arr name="dc.description"><str>Fossil Acidaspis limestone Wren's Nest GR: 393535 291870 scree Dudley Silurian c425my incomplete cephalon</str></arr>
+  <str name="dc.identifier">http://www.blackcountryhistory.org/collections/getrecord/DMUSE_001954</str>
+  <str name="dc.publisher">Dudley Museums Service</str>
+  <str name="dc.related.link">http://www.blackcountryhistory.org/collections/getrecord/DMUSE_001954</str>
+  <arr name="dc.subject"><str>David Ray Collection</str></arr>
+  <arr name="dc.title"><str>Trilobite</str></arr>
+  <arr name="dcmi.type"><str>Unknown</str></arr>
+  <arr name="dcterms.isPartOf"><str>BlackCountryHistory</str><str>PN</str></arr>
+  <str name="dcterms.isPartOf_AllIDs">BlackCountryHistory|CG_BREAK|PN</str>
+  <str name="dcterms.isPartOf_AllNames">Black Country History|CG_BREAK|People's Network</str>
+  <arr name="dcterms.isPartOf_Name"><str>Black Country History</str><str>People's Network</str></arr>
+  <str name="dcterms.license">http://creativecommons.org/licenses/by/2.0/uk/</str>
+  <str name="dcterms.rightsHolder">Dudley Museums Service</str>
+  <arr name="dcterms.spatial"><str>Wren's Nest GR: 393535 291870 scree</str></arr>
+  <arr name="dcterms.temporal"><str>Silurian, Much Wenlock Limstone, Nodular Member.</str></arr>
+  <bool name="have_temporal">false</bool>
+  <arr name="otherDcIdentifier"><str>001954</str><str>Geology</str></arr>
+  <str name="restp">ServiceProvider</str>
+  <date name="timestamp">2011-01-10T08:52:11.109Z</date>
+ </doc>
+ <doc>
+  <str name="aggregator.internal.id">2674332</str>
+  <str name="aggregator.internal_record_link">/dpp/resource/2674332/stream/CultureGrid_Item</str>
+  <str name="authority">BCH</str>
+  <str name="authority_name">Black Country History</str>
+  <arr name="dc.description"><str>Fossil Cybantyx limestone Wren's Nest GR: 393566 292028 scree Dudley Silurian c425my incomplete pygidium</str></arr>
+  <str name="dc.identifier">http://www.blackcountryhistory.org/collections/getrecord/DMUSE_001946</str>
+  <str name="dc.publisher">Dudley Museums Service</str>
+  <str name="dc.related.link">http://www.blackcountryhistory.org/collections/getrecord/DMUSE_001946</str>
+  <arr name="dc.subject"><str>David Ray Collection</str></arr>
+  <arr name="dc.title"><str>Trilobite</str></arr>
+  <arr name="dcmi.type"><str>Unknown</str></arr>
+  <arr name="dcterms.isPartOf"><str>BlackCountryHistory</str><str>PN</str></arr>
+  <str name="dcterms.isPartOf_AllIDs">BlackCountryHistory|CG_BREAK|PN</str>
+  <str name="dcterms.isPartOf_AllNames">Black Country History|CG_BREAK|People's Network</str>
+  <arr name="dcterms.isPartOf_Name"><str>Black Country History</str><str>People's Network</str></arr>
+  <str name="dcterms.license">http://creativecommons.org/licenses/by/2.0/uk/</str>
+  <str name="dcterms.rightsHolder">Dudley Museums Service</str>
+  <arr name="dcterms.spatial"><str>Wren's Nest GR: 393566 292028 Scree</str></arr>
+  <arr name="dcterms.temporal"><str>Silurian - Wenlock - Homerian.  Much Wenlock Limstone, Nodular Member.</str></arr>
+  <bool name="have_temporal">false</bool>
+  <arr name="otherDcIdentifier"><str>001946</str><str>Geology</str></arr>
+  <str name="restp">ServiceProvider</str>
+  <date name="timestamp">2011-01-10T08:52:11.788Z</date>
+ </doc>
+ <doc>
+  <str name="aggregator.internal.id">2674997</str>
+  <str name="aggregator.internal_record_link">/dpp/resource/2674997/stream/CultureGrid_Item</str>
+  <str name="authority">BCH</str>
+  <str name="authority_name">Black Country History</str>
+  <arr name="dc.description"><str>Fossil Calymene limestone Wren's Nest GR: 393578 292047scree Dudley Silurian c425my complete enrolled</str></arr>
+  <str name="dc.identifier">http://www.blackcountryhistory.org/collections/getrecord/DMUSE_001947</str>
+  <str name="dc.publisher">Dudley Museums Service</str>
+  <str name="dc.related.link">http://www.blackcountryhistory.org/collections/getrecord/DMUSE_001947</str>
+  <arr name="dc.subject"><str>David Ray Collection</str></arr>
+  <arr name="dc.title"><str>Trilobite</str></arr>
+  <arr name="dcmi.type"><str>Unknown</str></arr>
+  <arr name="dcterms.isPartOf"><str>BlackCountryHistory</str><str>PN</str></arr>
+  <str name="dcterms.isPartOf_AllIDs">BlackCountryHistory|CG_BREAK|PN</str>
+  <str name="dcterms.isPartOf_AllNames">Black Country History|CG_BREAK|People's Network</str>
+  <arr name="dcterms.isPartOf_Name"><str>Black Country History</str><str>People's Network</str></arr>
+  <str name="dcterms.license">http://creativecommons.org/licenses/by/2.0/uk/</str>
+  <str name="dcterms.rightsHolder">Dudley Museums Service</str>
+  <arr name="dcterms.spatial"><str>Wren's Nest GR: 393578 292047 Scree</str></arr>
+  <arr name="dcterms.temporal"><str>Silurian, Much Wenlock Limstone, Nodular Member.</str></arr>
+  <bool name="have_temporal">false</bool>
+  <arr name="otherDcIdentifier"><str>001947</str><str>Geology</str></arr>
+  <str name="restp">ServiceProvider</str>
+  <date name="timestamp">2011-01-10T08:55:59.483Z</date>
+ </doc>
+ <doc>
+  <str name="aggregator.internal.id">2103130</str>
+  <str name="aggregator.internal_record_link">/dpp/resource/2103130/stream/CultureGrid_Item</str>
+  <str name="authority">KirkleesImages</str>
+  <str name="authority_name">Kirklees Image Archive OAI Feed</str>
+  <str name="cached_thumbnail">/dpp/resource/2103130/stream/thumbnail_image_jpeg</str>
+  <arr name="dc.contributor"><str>Kirklees</str></arr>
+  <arr name="dc.format"><str>JPEG/IMAGE</str></arr>
+  <str name="dc.identifier">http://www.kirkleesimages.org.uk/frontend.php?keywords=Ref_No_increment;EQUALS;kw01090&amp;pos=2&amp;action=zoom</str>
+  <str name="dc.language">EN-GB</str>
+  <str name="dc.location">Kirklees</str>
+  <str name="dc.publisher">Kirklees</str>
+  <str name="dc.related.link">http://www.kirkleesimages.org.uk/frontend.php?keywords=Ref_No_increment;EQUALS;kw01090&amp;pos=2&amp;action=zoom</str>
+  <arr name="dc.subject"><str>Kirklees</str></arr>
+  <arr name="dc.title"><str>Ascent of Snowdon from Rhyd-ddu, Screes near top</str></arr>
+  <arr name="dcmi.type"><str>Image</str></arr>
+  <arr name="dcterms.audience"><str>General_Educational</str></arr>
+  <arr name="dcterms.isPartOf"><str>PN</str><str>KirkleesImageArchive</str></arr>
+  <str name="dcterms.isPartOf_AllIDs">PN|CG_BREAK|KirkleesImageArchive</str>
+  <str name="dcterms.isPartOf_AllNames">People's Network|CG_BREAK|Kirklees Image Archive</str>
+  <arr name="dcterms.isPartOf_Name"><str>People's Network</str><str>Kirklees Image Archive</str></arr>
+  <str name="dcterms.license">http://creativecommons.org/licenses/by-nc-nd/2.0/uk/</str>
+  <str name="dcterms.rightsHolder">Kirklees</str>
+  <arr name="dcterms.spatial"><str>Kirklees</str></arr>
+  <bool name="have_temporal">false</bool>
+  <str name="pndsterms.thumbnail">https://www.hpacde.org.uk/kirklees/jpgs_kirklees/kw01090.jpg</str>
+  <str name="restp">ServiceProvider</str>
+  <date name="timestamp">2010-12-07T09:38:02.324Z</date>
+ </doc>
+</result>
+</response>
