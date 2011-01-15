@@ -39,24 +39,26 @@ module CultureGrid
   end
 
   class Doc < Hashie::Mash
-    def initialize(d)
+    def initialize(d = nil, default = nil, &blk)
       hash = {}
-      
-      d.children.each do |prop|
-        if prop.attributes["name"]
-          case prop.name
-          when "arr"
-            hash[prop.attributes["name"].value] = prop.children.collect{|c| c.text}
-          else
-            if prop.children
-              hash[prop.attributes["name"].value] = prop.children.text
+      if d && d.children
+        d.children.each do |prop|
+          if prop.attributes["name"]
+            case prop.name
+            when "arr"
+              hash[prop.attributes["name"].value] = prop.children.collect{|c| c.text}
             else
-              hash[prop.attributes["name"].value] = prop.text
+              if prop.children
+                hash[prop.attributes["name"].value] = prop.children.text
+              else
+                hash[prop.attributes["name"].value] = prop.text
+              end
             end
           end
         end
       end
-      super(hash)
+      puts hash.inspect
+      super(hash, default, &blk) rescue super({})
     end
   end
 end
