@@ -1,6 +1,9 @@
+$:.unshift(File.expand_path(File.join(File.dirname(__FILE__))))
 $:.unshift(File.expand_path(File.join(File.dirname(__FILE__), "..","lib")))
+
 require 'spec_helper'
 require "culturegrid"
+require 'json'
 
 describe CultureGrid::Index do
   
@@ -25,6 +28,15 @@ describe CultureGrid::Index do
     it "should deserialize Docs into hashie mashes" do
       @grid.search("scree").first["dc.title"].should eql(["Screes near Badger Slacks"])
       @grid.search("scree").first["pndsterms.thumbnail"].should eql("https://www.hpacde.org.uk/kirklees/jpgs_kirklees/k006195.jpg")
+    end
+    
+    it "should get a document's title" do
+      @grid.search("scree").first.title.should eql("Screes near Badger Slacks")
+    end
+    
+    it "should serialize Doc objects with an ID and title" do
+      JSON.parse(@grid.search("scree").first.to_json)["id"].should eql(2082977)
+      JSON.parse(@grid.search("scree").first.to_json)["title"].should eql("Screes near Badger Slacks")
     end
      
   end

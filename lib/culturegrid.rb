@@ -6,7 +6,7 @@ require 'weary'
 module CultureGrid
   
   def self.search(terms, opts={})
-    CultureGrid::Index.new.search(terms)
+    CultureGrid::Index.new.search(terms, opts)
   end
   
   class Index
@@ -19,11 +19,12 @@ module CultureGrid
       q = []
       opts[:version] ||= "2.2"
       opts[:indent] ||= "on"
+      opts[:start] ||= "0"
+      opts[:rows] ||= "10"
       opts.each_pair do |opt,val|
         q << "#{opt}=#{CGI::escape(val)}"
       end
       url = "#{@base}?#{q.join("&")}"
-      puts url
       
       Nokogiri::XML(Weary.get(url).perform.body)
     end
@@ -61,7 +62,8 @@ module CultureGrid
           end
         end
       end
-      puts hash.inspect
+      hash["id"] = hash["aggregator.internal.id"]
+      hash["title"] = hash["dc.title"].first rescue "Untitled"
       super(hash, default, &blk) rescue super({})
     end
   end
